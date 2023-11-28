@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tictactoe.css">
+    <script src="tictactoe.js"></script>
+</head>
+<body>
+    <h1>TIC TAC TOE</h1>
+    <p>X Starts</p>
+    <div id="board">
+        <div class="row">
+            <input type="text" id="c1" class="cell" onclick="check();cell1();" readonly>
+            <input type="text" id="c2" class="cell" onclick="check();cell2();" readonly>
+            <input type="text" id="c3" class="cell" onclick="check();cell3();" readonly>
+            
+        </div>
+        <div class="row">
+            <input type="text" id="c4" class="cell" onclick="check();cell4();" readonly>
+            <input type="text" id="c5" class="cell" onclick="check();cell5();" readonly>
+            <input type="text" id="c6" class="cell" onclick="check();cell6();" readonly>
+
+        </div>
+        <div class="row">
+            <input type="text" id="c7" class="cell" onclick="check();cell7();" readonly>
+            <input type="text" id="c8" class="cell" onclick="check();cell8();" readonly>
+            <input type="text" id="c9" class="cell" onclick="check();cell9();" readonly>
+        </div>
+    </div>
+    <br><br>
+    <button onclick="reset()" id="resetButton">RESET</button>
+</body>
+</html>
